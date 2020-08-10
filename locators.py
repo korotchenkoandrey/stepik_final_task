@@ -15,3 +15,13 @@ class LoginPageLocators():
     REGISTER_PASSWORD_ENTRY_FIELD = (By.CSS_SELECTOR, "#id_registration-password1")
     REGISTER_CONFIRM_PASSWORD_ENTRY_FIELD = (By.CSS_SELECTOR, "#id_registration-password2")
     REGISTER_BUTTON = (By.NAME, "registration_submit")
+
+class ProductPageLocators():
+    ADD_TO_BASKET_BUTTON = (By.CLASS_NAME, "btn-add-to-basket")
+    ITEM_NAME = (By.CSS_SELECTOR, '.product_main>h1')
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, '.alertinner>strong:nth-child(1)')
+    PRICE = (By.CSS_SELECTOR, '.product_main>.price_color')
+    PRICE_MESSAGE = (By.CSS_SELECTOR, '.alertinner>p>strong')
+    BASKET_BUTTON = (By.CSS_SELECTOR, '.basket-mini>span>a')
+    EMPTY_BASKET = (By.ID, "content_inner")
+    BASKET_EMPTY_MESSAGE = (By.XPATH, '//div[@id="content_inner"]//p[contains(text(),"Your basket is empty.")]')
