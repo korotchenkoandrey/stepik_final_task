@@ -1,2 +1,2 @@
 # stepik_final_task
-This is a final task I use for Stepik Python Automation Testing course.
+This is a final task of the Stepik Python Automation Testing course.
