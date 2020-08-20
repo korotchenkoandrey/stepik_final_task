@@ -30,3 +30,4 @@ def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
     page.is_basket_empty()
     page.should_be_basket_empty_message()
 
+
