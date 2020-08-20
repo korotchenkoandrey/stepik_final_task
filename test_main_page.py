@@ -1,7 +1,7 @@
 import pytest
-from .main_page import MainPage
-from .base_page import BasePage
-from .basket_page import BasketPage
+from pages.main_page import MainPage
+from pages.base_page import BasePage
+from pages.basket_page import BasketPage
 
 
 def test_guest_can_go_to_login_page(browser):
